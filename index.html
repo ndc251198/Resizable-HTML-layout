@@ -3,21 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Resize layout</title>
     <link rel="stylesheet" href="css/index.css">
+    <meta name="description" content="resizable html layout with javascript and jquery">
 </head>
 
 <body>
+    <h1>Resizable HTML layout</h1>
     <div class="container">
+      <p>Drag and drop the gray <strong>bar</strong> to <strong>resize html layout</strong></p>
         <div class="top">
-          <div class="left"></div>
+          <div class="left">
+            <div>Left element</div>
+          </div>
           <div class="dragtop"></div>
-          <div class="right"></div>
+          <div class="right">
+            <div>Right element</div>
+          </div>
         </div>
         <div class="drag"></div>
-        <div class="bottom"></div>
+        <div class="bottom">
+          <div>Bottom element</div>
+        </div>
     </div>
     <script src="scripts/jquery.js"></script>
+    <script src="scripts/resize.js"></script>
     <script src="scripts/index.js"></script>
 </body>
 

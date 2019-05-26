@@ -4,6 +4,11 @@
 	margin: 0;
 }
 
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
 .container {
 	width: 1000px;
 	margin:  10px auto;
@@ -36,6 +41,11 @@
 }
 
 .top .left, .top .right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: bold;
 	width: 50%;
 	min-width: 20%;
 }
@@ -49,6 +59,11 @@
 }
 
 .bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: bold;
 	min-height: 10%;
 	height: 40%;
 	background-color: blue;
