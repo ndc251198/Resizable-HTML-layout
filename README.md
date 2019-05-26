@@ -1,6 +1,6 @@
 # Resizable
 
-Easy resizable layout html with javascrip and jquery
+Easy resizable layout html with javascript and jquery
 
 ## Resize vertically
 ```js
@@ -10,7 +10,7 @@ var topElement = $('.top');
 
 var botElemnt = $('.bottom');
 
-resizeElementsWithResizeBar('.drag', '.top', '.bottom');
+resizeElementsWithResizeBar(bar, topElement, botElemnt);
 
 ```
 
@@ -18,10 +18,10 @@ resizeElementsWithResizeBar('.drag', '.top', '.bottom');
 ```js
 var bar = $('.drag');
 
-var leftElement = $('.top');
+var leftElement = $('.left');
 
-var rightElemnt = $('.bottom');
+var rightElemnt = $('.right');
 
-resizeElementsWithResizeBar('.drag', '.top', '.bottom', 'horizontal');
+resizeElementsWithResizeBar(bar, leftElement, rightElemnt, 'horizontal');
 
 ```
